@@ -1,0 +1,157 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6B66FF; /* Changed background color to match the provided image */
+}
+
+.outer-container {
+    max-width: 1100px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo {
+    color: #6B66FF;
+    font-weight: bold;
+}
+
+nav a {
+    color: #888;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #6B66FF;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    color: #666;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #6B66FF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.profile-pic {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #6B66FF;
+    margin-left: 10px; /* A margin to give some space between the image and text content */
+}
+
+/* styling portfolio page */
+
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 250%;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    color: #fff;
+    background-color: #6B66FF;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #5a55d9;
+}
+
+
+.project-box {
+    display: inline-block;
+    padding: 15px 470px;
+    background-color: #3737A6;
+    border: none;
+    border-radius: 20px;
+    transition: transform 0.2s;
+}
+
+
+.project-box h2 {
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Verdana', sans-serif;
+    
+}
+
+.contact-header {
+    text-align: center;
+    color: #6B66FF;
+    padding-top: 40px;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.contact-item-icon {
+    color: #6B66FF;
+    font-size: 24px;
+}
+
+.contact-email,
+.contact-phone {
+    color: #333;
+}
+
+
+
