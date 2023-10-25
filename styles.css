@@ -156,25 +156,41 @@ button {
 
 /* Existing CSS */
 
+/* Existing CSS */
+
+/* General responsiveness */
+.outer-container, .inner-container {
+    width: 100%;
+    max-width: 100%;
+}
+
 /* Media query for tablets */
 @media (max-width: 768px) {
-    /* Adjust styles for tablet screens here */
-    .outer-container {
-        padding: 10px;
-    }
-    .inner-container {
+    nav {
         flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        margin: 10px 0;
+    }
+    .project-card {
+        width: 100%;
     }
 }
 
 /* Media query for mobile phones */
 @media (max-width: 480px) {
-    /* Adjust styles for mobile screens here */
-    .outer-container {
-        padding: 5px;
+    .profile-pic {
+        width: 200px;
     }
-    .inner-container {
-        flex-direction: column;
+    .text-content h2, .text-content h3 {
+        font-size: 18px;
+    }
+    .text-content p {
+        font-size: 14px;
+    }
+    .project-card {
+        padding: 5px;
     }
 }
 
