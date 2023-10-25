@@ -154,4 +154,27 @@ button {
 }
 
 
+/* Existing CSS */
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    /* Adjust styles for tablet screens here */
+    .outer-container {
+        padding: 10px;
+    }
+    .inner-container {
+        flex-direction: column;
+    }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+    /* Adjust styles for mobile screens here */
+    .outer-container {
+        padding: 5px;
+    }
+    .inner-container {
+        flex-direction: column;
+    }
+}
 
