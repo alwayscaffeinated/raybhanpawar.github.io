@@ -159,10 +159,7 @@ button {
 /* Existing CSS */
 
 /* General responsiveness */
-.outer-container, .inner-container {
-    width: 100%;
-    max-width: 100%;
-}
+
 
 /* Media query for tablets */
 @media (max-width: 768px) {
