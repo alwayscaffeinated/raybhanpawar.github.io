@@ -69,18 +69,20 @@ button {
 
 .profile-pic {
     width: 250px;
-   /* border-radius: 50%; */
+    border-radius: 50%;
     border: 5px solid #6B66FF;
     margin-left: 10px; /* A margin to give some space between the image and text content */
 }
 
 
 .badges-pic {
-    max-width: 100%; /* Ensures the image doesn't exceed its original size */
-    height: auto; /* Allows the image to maintain its aspect ratio */
+    width: 15px; /* Adjust width as needed */
+    height: 20px; /* Auto height to maintain aspect ratio */
     border: 5px solid #6B66FF;
+    margin-top: 20px; /* Adjust margin as needed */
     margin-left: 10px; /* A margin to give some space between the image and text content */
 }
+
 
 
 /* styling portfolio page */
