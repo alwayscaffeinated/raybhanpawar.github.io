@@ -75,11 +75,10 @@ button {
 }
 
 
-.badges-pic {
-    width: 15px; /* Adjust width as needed */
-    height: 20px; /* Auto height to maintain aspect ratio */
+.profile-pic {
+    width: 250px;
+    border-radius: 10%;
     border: 5px solid #6B66FF;
-    margin-top: 20px; /* Adjust margin as needed */
     margin-left: 10px; /* A margin to give some space between the image and text content */
 }
 
