@@ -69,7 +69,7 @@ button {
 
 .profile-pic {
     width: 250px;
-    border-radius: 50%;
+   /* border-radius: 50%; */
     border: 5px solid #6B66FF;
     margin-left: 10px; /* A margin to give some space between the image and text content */
 }
