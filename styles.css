@@ -74,6 +74,15 @@ button {
     margin-left: 10px; /* A margin to give some space between the image and text content */
 }
 
+
+.badges-pic {
+    max-width: 100%; /* Ensures the image doesn't exceed its original size */
+    height: auto; /* Allows the image to maintain its aspect ratio */
+    border: 5px solid #6B66FF;
+    margin-left: 10px; /* A margin to give some space between the image and text content */
+}
+
+
 /* styling portfolio page */
 
 
